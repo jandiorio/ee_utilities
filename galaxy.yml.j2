@@ -1,13 +1,13 @@
 ---
-namespace: jandiorio
-name: ee_utilities
-version: 1.1
+namespace: {{ collection_namespace }}
+name: {{ collection_name }}
+version: {{ collection_version }}
 description: A collection of utility roles for usage with Ansible Execution Enviroments
 readme: README.md
 authors:
     - Sean Sullivan @sean-m-sullivan
-repository: https://github.com/jandiorio/ee_utilities
-issues: https://github.com/jandiorio/ee_utilities/issues
+repository: {{ collection_repo }}
+issues: {{ collection_repo }}/issues
 build_ignore:
     - galaxy.yml.j2
     - release.yml
